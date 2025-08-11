@@ -7,7 +7,7 @@ REQUISITOS:
 
 INSTALACIÓN:
 1. Clonar el repositorio:
-  git clone <URL_DEL_REPOSITORIO>
+  git clone [<URL_DEL_REPOSITORIO>](https://github.com/Julian981309/OpenCart-Reto.git)
 
 2. Ingresar a la carpeta del proyecto:
    cd cypress/e2e/Reto_OpenCart/OpenCart.cy.js

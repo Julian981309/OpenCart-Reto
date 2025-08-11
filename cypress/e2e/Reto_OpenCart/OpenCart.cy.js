@@ -40,7 +40,7 @@ describe("   ", () => {
             cy.get('#button-payment-method').scrollIntoView().should("be.visible").click()
             // Confirmar el pedido
             cy.get('#button-confirm').scrollIntoView().should("be.visible").click()
-            // Validar que el pedido se ha realizado correctamente
+            // Validar que el pedido se ha realizado correctamente.
             cy.screenshot('Prueba',{capture: 'viewport'});
 
         });

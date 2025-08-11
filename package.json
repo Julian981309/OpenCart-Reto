@@ -1,0 +1,25 @@
+{
+  "name": "cypress-curso-2024",
+  "version": "1.0.0",
+  "description": "curso de cypress 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian David",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.0.6",
+    "@angular/cli": "^18.0.6",
+    "@angular/common": "^18.0.4",
+    "@angular/core": "^18.0.4",
+    "@angular/platform-browser-dynamic": "^18.0.4",
+    "cypress": "^13.12.0",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-xpath": "^2.0.1",
+    "mailslurp-client": "^15.23.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}

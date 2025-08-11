@@ -1,0 +1,22 @@
+CONCLUSIONES DEL EJERCICIO
+
+1. El flujo de compra en la página http://opencart.abstracta.us/ pudo ser automatizado exitosamente utilizando Cypress, cubriendo desde la selección de productos hasta la confirmación final del pedido.
+
+2. La prueba E2E incluyó:
+   - Selección de dos productos y adición al carrito.
+   - Visualización y verificación de los productos en el carrito.
+   - Proceso de compra como invitado (“Guest Checkout”).
+   - Finalización del pedido hasta el mensaje de confirmación “Your order has been placed!”.
+
+3. El uso de Cypress permitió:
+   - Ejecución rápida y validación visual de cada paso.
+   - Facilidad para manejar elementos dinámicos de la interfaz.
+   - Registro de evidencias en forma de reportes y capturas de pantalla.
+
+4. Retos encontrados:
+   - Manejo de selectores dinámicos en algunas secciones del checkout.
+   - Configuración de datos de prueba para evitar errores por datos repetidos.
+
+5. Valor agregado:
+- La prueba puede ser reutilizada para validar cambios futuros en el flujo de compra.
+   - La estructura modular del código permite escalar a otros casos de prueba fácilmente.
